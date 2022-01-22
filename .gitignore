@@ -111,4 +111,3 @@ exports
 build
 .strapi-updater.json
 package-lock.json
-.env
