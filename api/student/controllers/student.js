@@ -8,9 +8,9 @@ const signup = async (ctx) => {
 
   // create new user
   try {
-    user = await strapi.query(`customer`).create({ username });
+    await strapi.query(`student`).create({ username });
   } catch (error) {
-    return strapi.services.customer.err500(error, "create new user");
+    return strapi.services.student.err500(ctx, error, "create new user");
   }
 
   return username;

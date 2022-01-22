@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "POST",
+      "path": "/students/signup",
+      "handler": "student.signup",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }
