@@ -20,6 +20,9 @@
     },
     "question": {
       "type": "integer"
+    },
+    "answer": {
+      "type": "string"
     }
   }
 }
